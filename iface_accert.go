@@ -50,3 +50,5 @@ func (s sms) cost() float64 {
 func (i invalid) cost() float64 {
 	return 0.0
 }
+
+//comm1
