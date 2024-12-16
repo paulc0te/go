@@ -1,3 +1,4 @@
+// 8
 package main
 
 func getExpenseReport(e expense) (string, float64) {
@@ -50,5 +51,3 @@ func (s sms) cost() float64 {
 func (i invalid) cost() float64 {
 	return 0.0
 }
-
-//comm5
