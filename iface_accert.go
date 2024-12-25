@@ -47,6 +47,6 @@ func (s sms) cost() float64 {
 	return float64(len(s.body)) * .03
 }
 
-// func (i invalid) cost() float64 {
-	// return 0.0
-// }
+func (i invalid) cost() float64 {
+	return 0.0
+}
