@@ -10,7 +10,7 @@ func getExpenseReport(e expense) (string, float64) {
 	if ok {
 		return varSms.toPhoneNumber, e.cost()
 	}
-	// return "", .0
+	return "", .0
 }
 
 // don't touch below this line
@@ -48,5 +48,9 @@ func (s sms) cost() float64 {
 }
 
 func (i invalid) cost() float64 {
+	return 0.0
+}
+
+func (i invalid) cost2() float64 {
 	return 0.0
 }
