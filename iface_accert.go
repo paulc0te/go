@@ -51,6 +51,3 @@ func (i invalid) cost() float64 {
 	return 0.0
 }
 
-func (i invalid) cost2() float64 {
-	return 0.0
-}
