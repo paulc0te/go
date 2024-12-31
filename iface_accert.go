@@ -1,6 +1,6 @@
 package main
 
-func getExpenseReport(e expense) (string, float64) {
+func getExpenseReport2(e expense) (string, float64) {
 	// ?
 	varEmail, ok := e.(email)
 	if ok {
