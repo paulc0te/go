@@ -1,7 +1,7 @@
 package main
 
 
-test hub()
+test hub
 func getExpenseReport2(e expense) (string, float64) {
 	?
 	varEmail, ok := e.(email)
