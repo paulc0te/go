@@ -16,9 +16,6 @@ func getExpenseReport2(e expense) (string, float64) {
 
 
 
-type expense interface {
-	cost() float64
-}
 
 type email struct {
 	isSubscribed bool
