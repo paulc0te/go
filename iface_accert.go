@@ -15,7 +15,7 @@ func getExpenseReport2(e expense) (string, float64) {
 }
 
 
-
+type wer struct{}
 
 type email struct {
 	isSubscribed bool
