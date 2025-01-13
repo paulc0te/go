@@ -11,7 +11,7 @@ func getExpenseReport2(e expense) (string, float64) {
 	if ok {
 		return varSms.toPhoneNumber, e.cost()
 	}
-	return "", .01
+	return "", .1
 }
 
 
@@ -46,4 +46,4 @@ func (s sms) cost() float64 {
 }
 
 
-
+type setr struct{}
