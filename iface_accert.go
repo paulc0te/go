@@ -29,7 +29,7 @@ type sms struct {
 	toPhoneNumber string
 }
 
-type invalid struct{}
+
 
 func (e email) cost() float64 {
 	if !e.isSubscribed {
