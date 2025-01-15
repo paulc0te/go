@@ -14,7 +14,11 @@ func getExpenseReport2(e expense) (string, float64) {
 	return "", .1
 }
 
-
+type email2 struct {
+	isSubscribed bool
+	body         string
+	toAddress    string
+}
 
 
 type email struct {
