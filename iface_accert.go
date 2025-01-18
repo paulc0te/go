@@ -27,11 +27,6 @@ type email struct {
 	toAddress    string
 }
 
-type email2 struct {
-	isSubscribed bool
-	body         string
-	toAddress    string
-}
 
 
 type sms struct {
