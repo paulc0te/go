@@ -24,12 +24,6 @@ type email struct {
 
 
 
-type sms struct {
-	isSubscribed  bool
-	body          string
-	toPhoneNumber string
-}
-
 
 
 func (e email) cost() float64 {
