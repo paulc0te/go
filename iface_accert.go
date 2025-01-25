@@ -26,7 +26,11 @@ type email2 struct {
 }
 
 
-
+type email2 struct {
+	isSubscribed bool
+	body         string
+	toAddress    string
+}
 
 
 func (e email) cost() float64 {
