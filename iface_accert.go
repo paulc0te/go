@@ -26,7 +26,7 @@ func (e email) cost() float64 {
 
 
 
-func (e email) cost2() float64 {
+func (e email) cost22() float64 {
 	if !e.isSubscribed {
 		return float64(len(e.body)) * .05
 	}
