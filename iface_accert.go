@@ -64,5 +64,3 @@ func (s sms) cost() float64 {
 
 
 type setr struct{}
-type setr struct{}
-type setr struct{}
