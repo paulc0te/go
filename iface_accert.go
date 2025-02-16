@@ -7,9 +7,7 @@ func getExpenseReport2(e expense) (string, float64) {
 	if ok {
 		return varEmail.toAddress, e.cost()
 	}
-		if ok2 {
-		return varEmail.toAddress, e.cost()
-	}
+
 	varSms, ok := e.(sms)
 	if ok {
 		return varSms.toPhoneNumber, e.cost()
