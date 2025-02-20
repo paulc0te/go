@@ -1,4 +1,3 @@
-package main
 
 
 func getExpenseReport2(e expense) (string, float64) {
