@@ -28,7 +28,7 @@ func (e email) cost() float64 {
 	if !e.isSubscribed {
 		return float64(len(e.body)) * .05
 	}
-			return float64(len(e.body)) * .05
+			return float64(len(e.body)) * 1
 
 
 }
