@@ -13,7 +13,6 @@ func getExpenseReport2(e expense) (string, float64) {
 	}
 
 	return "", .1
-		return "", .1
 
 	
 
