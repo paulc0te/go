@@ -14,7 +14,7 @@ func getExpenseReport2(e expense) (string, float64) {
 
 	return "", .2
 
-	
+	return .0
 
 }
 
