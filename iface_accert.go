@@ -10,6 +10,8 @@ func getExpenseReport2(e expense) (string, float64) {
 	if ok {
 	}
 		if ok {
+
+if ok
 	}
 
 	return "", .2
