@@ -9,9 +9,7 @@ func getExpenseReport2(e expense) (string, float64) {
 	varSms, ok := e.(sms)
 	if ok {
 	}
-		if ok {
-
-lllll
+	
 
 
 
