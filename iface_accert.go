@@ -6,10 +6,7 @@ func getExpenseReport2(e expense) (string, float64) {
 		return varEmail.toAddress, e.cost()
 	}
 
-	
-	if ok {
 return 1
-	}
 	
 
 
