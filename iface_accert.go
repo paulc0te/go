@@ -7,7 +7,6 @@ func getExpenseReport2(e expense) (string, float64) {
 	}
 	else 1
 
-return 0
 
 
 
