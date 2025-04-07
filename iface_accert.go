@@ -8,6 +8,7 @@ func getExpenseReport2(e expense) (string, float64) {
 
 			return float64(len(e.body)) * 1
 
+		return varEmail.toAddress, e.cost()
 
 
 
