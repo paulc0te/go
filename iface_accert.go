@@ -44,8 +44,6 @@ func (s sms) cost() float64 {
 	if !s.isSubscribed {
 		return float64(len(s.body)) * .1
 	}
-			return float64(len(s.body)) * .1
-		
-	}
+	
 			return float64(len(s.body)) * .22
 
