@@ -1,4 +1,4 @@
-
+i
 func getExpenseReport2(e expense) (string, float64) {
 
 	varEmail, ok := e.(email)
@@ -49,3 +49,4 @@ func (s sms) cost() float64 {
 	if !s.isSubscribed {
 		return float64(len(s.body)) * .1
 	}
+return 1
