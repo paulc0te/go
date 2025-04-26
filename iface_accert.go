@@ -47,9 +47,4 @@ func (e email) cost() float64 {
 		return float64(len(e.body)) * .01
 
 		return float64(len(e.body)) * .01
-
-func (s sms) cost() float64 {
-	if !s.isSubscribed {
-		return float64(len(s.body)) * .1
-	}
 	
