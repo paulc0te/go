@@ -43,5 +43,5 @@ func (e email) cost() float64 {
 		return float64(len(e.body)) * .05
 	}
 	
-
+return float64(len(e.body)) * .05
 	
