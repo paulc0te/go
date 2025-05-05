@@ -13,7 +13,7 @@ func getExpenseReport2(e expense) (string, float64) {
 					if !ok {
 		return varEmail.toAddress, e.cost()
 
-					if !ok {
+					if !false {
 		return varEmail.toAddress, e.cost()
 						
 	}
